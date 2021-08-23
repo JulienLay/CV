@@ -373,6 +373,13 @@ footer img {
     #haut aside nav {
         padding-left: 100px;
     }
+
+    /* espace sur les bords */
+
+    #haut, #bas {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
     
     /* modifier la taille de l'image avec ma photo */
     
@@ -838,6 +845,14 @@ footer img {
     #haut aside nav {
         padding-left: 100px;
     }
+
+    /* espace sur les bords */
+
+    #haut, #bas {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    
     
     /* modifier la taille de l'image avec ma photo */
     
@@ -1275,15 +1290,15 @@ footer img {
         scroll-behavior: smooth;
     }
     
-    /*html {
-        border: solid 2px violet;
-    }*/
+    /* html {
+        border: solid 2px violet; 
+    } */
 
     body {
         width: 100%;
         margin: 0px;
-        /*background-color: pink;*/
-        /*border: solid 2px blue;*/
+        /* background-color: pink;
+        border: solid 2px blue; */
     }
 
     /* aligner les blocs en haut et en bas en flex */
@@ -1296,6 +1311,14 @@ footer img {
     #haut aside nav {
         padding-left: 50%;
     }
+
+    /* espace sur les bords */
+
+    #haut, #bas {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    
     
     /* modifier la taille de l'image avec ma photo */
     
@@ -1303,7 +1326,7 @@ footer img {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 660px;
+        width: 100%;
     }
     
     h1 {
@@ -1409,7 +1432,7 @@ footer img {
     #etudiantMMI {
         font-size: 25px;
     }
-    
+
     /* Partie # FORMATION */
 
     #haut #formation{
@@ -1791,6 +1814,7 @@ footer img {
         display: block;
         margin-left: auto;
         margin-right: auto;
+        width: 960px;
     }
     
     h1 {
