@@ -138,6 +138,10 @@ strong {
     /* border: 2px solid green; */
 }
 
+#formation section p {
+    height: 32%;
+}
+
 #formation aside {
     font-size: 25px;
     padding-left: 30px;
